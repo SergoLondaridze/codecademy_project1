@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: seashell;
+    font-size: 22px;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: black;
+    height: 100%;
+}
+header{
+    height: 69px;
+    width: 100%;
+}
+.logo{
+   height: 50px;
+}
+nav{
+    padding-left: 10px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+}
+ul{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+ul li{
+    list-style: none;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.beckimg {
+  background-image: url('./bedford-bizarre.jpg');
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  margin: 0 auto;
+ 
+}
