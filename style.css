@@ -2,6 +2,7 @@ body{
     color: seashell;
     font-size: 22px;
     font-family: sans-serif;
+    min-height: 100vh;
 }
 *{
     box-sizing: border-box;
@@ -10,7 +11,7 @@ body{
 }
 .container{
     background-color: black;
-    height: 100%;
+    min-height: 100vh;
 }
 header{
     height: 69px;
@@ -28,6 +29,8 @@ nav{
     width: 100%;
     align-items: center;
     position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 ul{
     display: flex;
@@ -87,4 +90,27 @@ ul li{
     background-position: center;
     background-size: cover;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.loc-cont{
+    width: 100%;
+    display: flex;
+    gap:40px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.loc-cont div{
+    background-color: black;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    line-height: 60px;
+}
+footer{
+    margin-top: 20px;
+    text-align: center;
+    line-height: 40px;
 }
